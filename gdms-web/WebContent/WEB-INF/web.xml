@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>gdms-web</display-name>
+  <welcome-file-list>
+    
+    <welcome-file>index.jsp</welcome-file>
+    
+  </welcome-file-list>
+  
+ <!--  告诉Tomcat我有一个web1包，包中有个test1.java,你可以把它实例化出一个对象，叫test1 -->
+ <error-page>
+    <error-code>404</error-code> 
+    <location>/404/404.jsp</location>
+ </error-page>
+  
+</web-app>
